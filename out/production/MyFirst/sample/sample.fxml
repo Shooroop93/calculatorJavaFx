@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="265.0" prefWidth="280.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="378.0" prefWidth="280.0" style="-fx-background-color: #D3D3D3;">
+         <children>
+            <Button fx:id="ButtonDegree" layoutX="213.0" layoutY="162.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#operators" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="/" AnchorPane.bottomAnchor="137.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="162.0" />
+            <Button fx:id="ButtonSeven" layoutX="14.0" layoutY="162.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="7" />
+            <Button fx:id="ButtonFour" layoutX="14.0" layoutY="201.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="4" />
+            <Button fx:id="ButtonOne" layoutX="14.0" layoutY="237.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="1" />
+            <Button fx:id="ButtonEight" layoutX="82.0" layoutY="162.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="8" />
+            <Button fx:id="ButtonFive" layoutX="82.0" layoutY="201.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="5" />
+            <Button fx:id="ButtonIncrease" layoutX="213.0" layoutY="201.0" mnemonicParsing="false" onAction="#operators" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="*" />
+            <Button fx:id="ButtonNine" layoutX="148.0" layoutY="162.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="9" />
+            <Button fx:id="ButtonTwo" layoutX="82.0" layoutY="237.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="2" />
+            <Button fx:id="ButtonZero" layoutX="14.0" layoutY="274.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="0" />
+            <Button fx:id="ButtonSix" layoutX="148.0" layoutY="201.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="6" />
+            <Button fx:id="ButtonMinus" layoutX="213.0" layoutY="237.0" mnemonicParsing="false" onAction="#operators" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="-" />
+            <Button fx:id="ButtonThree" layoutX="148.0" layoutY="237.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="3" />
+            <Button fx:id="ButtonPlus" layoutX="213.0" layoutY="274.0" mnemonicParsing="false" onAction="#operators" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="+" />
+            <Button fx:id="ButtonEqually" layoutX="148.0" layoutY="274.0" mnemonicParsing="false" onAction="#operators" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="=" textAlignment="CENTER" />
+
+            <Button fx:id="ButtonDelete" layoutX="146.0" layoutY="123.0" mnemonicParsing="false" onAction="#Delete" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #1E90FF;" text="Delete" />
+            <Button fx:id="ButtonCE" layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onAction="#clearText" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #1E90FF;" text="CE" />
+            <Button fx:id="ButtonComma" layoutX="82.0" layoutY="274.0" mnemonicParsing="false" onAction="#nums" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #1E90FF;" text="." />
+            <Label fx:id="display" layoutX="9.0" layoutY="36.0" prefHeight="43.0" prefWidth="257.0" textAlignment="CENTER" />
+         </children></AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
